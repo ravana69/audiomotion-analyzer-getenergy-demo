@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - audioMotion-analyzer getEnergy() demo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- analyzer container -->
+<div id="container"></div>
+
+<!-- audio element -->
+<audio id="audio" src="https://icecast2.ufpel.edu.br/live" controls crossorigin></audio>
+
+<label>Upload audio file
+  <input id="upload" type="file" accept="audio/*">
+</label>
+
+<button id="live">Play live stream</button>
+
+<div class="info"><a href="https://audiomotion.dev">audioMotion-analyzer</a> <span id="version"></span></div>
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
